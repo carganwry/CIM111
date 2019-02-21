@@ -1,7 +1,7 @@
 # CIM111
 Class CIM111 Assignment Folder
-## Student name & C#
-Yuxuan Liu, C12044617
+## Student name
+Yuxuan Liu
 
 ## Assignment2
 (later)
