@@ -1,0 +1,51 @@
+2. HTML/Resume Assignment
+VILLAINS & SUPERHEROS HTML RESUME
+
+Due: Tuesday 2/19 5pm
+
+      In this assignment you will use the HTML skills you have learned in class to build a web-age resume. Pick your favorite villain or superhero and create a resume for them targeting any job you wish them to have - use fake information. Your resume can be as elaborate as you want it to be using HTML, but DO NOT USE ANY CSS.
+
+Inside of your cim111 a2 folder there should be an index.html file. Place the code in this file. Also Create an images folder inside of your a2 folder. 
+
+You will need the following:
+
+Your name, at the top of the page as an h1 heading.
+
+Use header tags for all section heads
+
+A paragraph about superhero/villain
+
+Add a photograph of your superhero/villain
+
+Add Work Experience
+
+A list of hobbies or interest displayed as an HTML ordered or unordered list.
+
+If you do not have a resume look at examples to format and have the right information.
+
+
+Must haves
+
+Proper html document setup (10 Points)
+
+Use meta author and description tags (10 Points)
+
+Using heading tags for your different sections (10 Points)
+
+Add a comment (10 Points)
+
+Address tag (use a fake info) (5 Points)
+
+Create a table (10 Points)
+
+Ordered or unordered list (10 Points)
+
+2 links (a tags) (10 Points)
+
+2 italics or bold tags (10 Points)
+
+At least one image (10 Points)
+
+Resume Styling (5 Points)
+
+Once completed push final changes to github and submit your github a2 folder link via blackboard. Assignments turned in late will be docked 1 full letter grade. 
