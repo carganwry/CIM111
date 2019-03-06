@@ -27,22 +27,41 @@ table {
 }
 
 .para{
-	font-family: 'Faster One', cursive;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
   	font-size: 18px;
+  	color:white;
 }
 
 .link{
-	  font-family: "Times New Roman", Times, serif;
+	  font-family: 'Laila', serif;
 	  font-size:18px;
 
 }
 
 .others{
-	  font-family: "Times New Roman", Times, serif;
+	  font-family: 'Tinos', serif;
 	  font-size:18px;
+	  color:white;
 }
 
 .freddy{
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 30px;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 30px;
+	color:white;
 }
+
+
+#navi{
+	color:white;
+}
+
+#headerTitle{
+	color:white;
+
+}
+
+
+.fancy {
+  text-shadow: 2px 2px gold;
+}
+/*textshadow*/
