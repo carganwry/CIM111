@@ -1,0 +1,196 @@
+body{
+	height: 100%;
+	margin: none;
+	background-color: lightgreen;
+
+}
+.welcome{
+	font-weight: bold;
+	color: white;
+	font-size: x-large;
+	padding-bottom: 20px;
+	background-color:orange;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+
+.container{
+	display: grid;
+	grid-gap: 20px;
+	/*grid-template-areas:
+      			"logo logo logo"
+                "buttoms buttoms buttoms"
+                "pic intro intro"
+                "contact contact contact"; */
+}
+.gallerypage{
+	background-color: green;
+}
+.topSection{
+	height: auto;
+	width: auto;
+	display: grid;
+	grid-gap: 10px;
+}
+.buttoms{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: x-large;
+	background-color: orange;
+	/*grid-area: buttoms;*/	
+	color: darkgray;
+}
+.metroText{
+	display: grid;
+	background-color:lightgreen; 
+}
+/*intro pic*/
+.pic1{
+	/*grid-area: pic;*/	
+	background-image: url("../images/images.jpg");
+	background-size: contain;
+	width: auto;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.Introduction{
+	/*grid-area: intro;*/
+	background-color: lightgray;
+	width: auto;
+}
+/*metropic*/
+.pic3{
+	/*grid-area: pic;*/
+	background-image: url("../images/metro.jpg");
+	background-size: contain;
+	width: auto;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*logo*/
+
+.pagelogo{
+	display:grid;
+	background-color:white;
+	/*grid-area: logo;*/
+	background-image: url("../images/logo.jpg");
+	background-size: contain;
+	width: auto;
+	height: 150px;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+.galleryintro{
+	font-weight: bold;
+	color: white;
+	font-size: large;
+	text-align: center;
+	background-color: green;
+}
+
+.metro{
+	display:grid;
+	color:gray;
+}
+
+footer{
+	font-weight: bold;
+	color: white;
+	font-size: large;
+	background-color: orange;
+	text-align: center;
+	/*grid-area: contact;*/
+}
+
+
+	@media only screen and (min-width: 500px) {
+		.pic1{
+			width:400px;
+			height:200px;
+		}
+
+		.menu{
+			display: block;
+		}
+		.topSection{
+			margin: 15px;
+			grid-template-columns: 250px auto;
+			background-color: darkgray;
+
+		}
+		.gallery{
+			grid-template-columns: 250px auto;
+		}
+
+		.Introduction{
+			float:right;
+		}
+
+		.pic3{
+			height:200px;
+			display:block;
+			margin-left:auto;
+			margin-right:auto;
+			width:50%;
+
+		}
+
+		.gallerypage{
+			background-color:orange;
+		}
+	
+	}
+
+	@media only screen and (min-width: 768px) {
+		.container {
+		  position: relative;
+		}
+
+		.pic3{
+			height:300px;
+			width:450px;
+		}
+
+		.text-block {
+ 			 position: center;
+ 			 height:300px;
+ 			 font-weight: bold;
+			 color: white;
+			 font-size: large;
+  			 background-color: lightgray;
+  			 color: white;
+  			 padding-left: 20px;
+  			 padding-right: 20px;
+		}
+		.gallerypage{
+			background-color:lightgreen;
+		}
+		.menu{
+			display: block;
+		}
+		.topSection{
+			margin: 15px;
+			grid-template-columns: 250px auto;
+			background-color: darkgray;
+
+		}
+		.metro{
+			grid-template-columns: auto auto;
+		}
+
+		.gallery{
+			
+			grid-template-columns: auto auto;
+		}
+		footer{
+			grid-template-columns: auto auto;
+		}
+
+	}

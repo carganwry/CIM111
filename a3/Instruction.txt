@@ -1,10 +1,22 @@
 Create 2 links
 Set the color of the links and remove the underline. - 10 points
 Style :hover effect. - 10 points
+
+
+
+
+
+
 Use two custom fonts - 10 points
+
+
 Make sure you use an external stylesheet and link it to your index.html page. - 10 Points
+
+
 Style 2 elements (ie a, p, b, address, etc) - 10 points
 Create and use 2 id - 20 points
 Create and use 4 classes, use the classes more than once - 20 points
+
 Make sure you validate your work I shouldn't find minor errors like semicolons missing or missing braces use a validator (css validator, html validator). Here is one example site you can put your code on to validate  http://csslint.net/ - 5 points
+
 Use one new css tag you have not used before in class and tell me with a comment the tag you are using inside the css file - 5 points
