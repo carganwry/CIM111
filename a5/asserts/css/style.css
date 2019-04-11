@@ -20,6 +20,11 @@
 	color:white;
 }
 
+
+#listButton:hover{
+	color:gold;
+}
+
 .listFont{
 	font-family: 'Sofia';font-size: 22px
 	color:white;
@@ -48,6 +53,8 @@ button{
 button:hover{
 	color:gold;
 }
+
+
 
 body{
 	background-color:gray;
