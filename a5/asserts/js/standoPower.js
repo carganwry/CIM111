@@ -131,7 +131,7 @@
 
 
       //ALL SHOW AND HIDE EVENTS
-     var hideStatus= true;
+     var hideStatus = true;
       $("#allShowButtom").click(function(){
         if(hideStatus == true){
         alert("Everything Shown");  
@@ -143,7 +143,7 @@
         $("#text6").show();
         $("#text7").show();
                 //$(".").show();
-        hideStatus == false;
+        hideStatus = false;
         }else{
             alert("Everything Shown Already, Please Scroll Down and Check!");
         }
@@ -161,7 +161,7 @@
         $("#text6").hide();
         $("#text7").hide();
                 //$(".").hide();
-        hideStatus == true;
+        hideStatus = true;
         }else{
             alert("Everything Hidden Already, Please Scroll Down and Check!");
         }
