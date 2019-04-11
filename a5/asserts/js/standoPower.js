@@ -129,7 +129,6 @@
 
 
 
-
       //ALL SHOW AND HIDE EVENTS
      var hideStatus = true;
       $("#allShowButtom").click(function(){
@@ -179,15 +178,4 @@
           $("#list").append(standList[i] + "<br>")
         }
       }
-      )
-
-
-      //LIST 
-      var standList = ["Anubis", "Atum", "Bastet", "Cream","Dark Blue Moon", "Death Thirteen", "Ebony Devil", "Emperor", "Empress", "The Fool", "Geb", "Hanged Man", "Hermit Purple", "Hierophant Green", "High Priestess", "Horus", "Judgement", "Justice", "Khnum", "Lovers", "Magician's Red", "Ocean Blue", "Osiris", "Sethan", "Silver Chariot", "Star Platinum", "Strength", "Sun", "Tenore Sax", "Tohth", "Tower of Gray", "Wheel of Fortune", "The World", "Yellow Temperance"];
-
-      $("#listButton").click(function(){
-        for (var i = 0; i < standList.length; i++){
-          $("#list").append(standList[i] + "<br>")
-        }
-      }
-      )
+      );
