@@ -144,13 +144,13 @@
         $("#text5").show();
         $("#text6").show();
         $("#text7").show();
-        $("#canvas1").show();
-        $("#canvas2").show();
-        $("#canvas3").show();
-        $("#canvas4").show();
-        $("#canvas5").show();
-        $("#canvas6").show();
-        $("#canvas7").show();
+        $(".kujoHide").show();
+        $(".joHide").show();
+        $(".mizuHide").show();
+        $(".avoHide").show();
+        $(".kaHide").show();
+        $(".polHide").show();
+        $(".iggyHide").show();
 
                 //$(".").show();
         hideStatus = false;
@@ -170,6 +170,13 @@
         $("#text5").hide();
         $("#text6").hide();
         $("#text7").hide();
+        $(".kujoHide").hide();
+        $(".joHide").hide();
+        $(".mizuHide").hide();
+        $(".avoHide").hide();
+        $(".kaHide").hide();
+        $(".polHide").hide();
+        $(".iggyHide").hide();
                 //$(".").hide();
         hideStatus = true;
         }else{

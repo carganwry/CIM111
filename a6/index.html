@@ -41,7 +41,7 @@
 		The protagonist of Stardust Crusaders and the grandson of Joseph Joestar through Holly. He is depicted as a rough delinquent with a kind heart as he journeys to Egypt with his grandfather and allies to defeat Dio and save his mother's life. His Stand is Star Platinum whose power is incredible strength, speed, and precision, and later the ability to stop time.
 		<br>
 
-		<div>
+		<div class="kujoHide">
         <canvas id="canvas1"></canvas>
     	</div>
 
@@ -57,7 +57,7 @@
 			<br>
 			<br>
 		Joseph is the protagonist of Battle Tendency and the grandson of Jonathan Joestar. He has acquired the vine-like Stand Hermit Purple which he uses to fight or perform predictions using electronic equipment such as cameras and television sets (though doing so requires destroying said equipment) as he leads the group of men to confront Dio in Egypt to save his daughter, Holly Kujo.
-		<div>
+		<div class="joHide">
         <canvas id="canvas2"></canvas>
     	</div>
 	</p>
@@ -72,7 +72,7 @@
 			<br>
 			<br>
 		A biracial (half-Japanese) delinquent who lives an ordinary life until the Joestar Family's old enemy, DIO, returns. Seeing Jotaro's mother Holy falling ill because of DIO, and heeding Joseph Joestar's call, he travels to Egypt in order to save his friend's mother, experience an unusual life and keep his family safe. He is a Stand User and wields the long-range Power Type Ocean Blue
-		<div>
+		<div class="mizuHide">
         <canvas id="canvas3"></canvas>
     	</div>
 	</p>
@@ -87,7 +87,7 @@
 			<br>
 			<br>
 		An ally of Joseph and Jotaro from Cairo, a fortune teller who narrowly escaped from Dio and helped Joseph understand Stands. His Stand is Magician's Red, which allows him to manipulate fire, usually in the shape of the ankh. Magician's Red's signature move is Crossfire Hurricane, which sends out several fiery ankhs at the target.
-		<div>
+		<div class="avoHide">
         <canvas id="canvas4"></canvas>
     	</div>
 	</p>
@@ -102,7 +102,7 @@
 			<br>
 			<br>
 		Originally sent by Dio to kill Jotaro under mind control, Jotaro save his life and Kakyoin pledges to work with Jotaro to kill Dio. His Stand is Hierophant Green, which he can shrink down to enter people and control them from the inside, produce strange tendrils that can thrash people, or perform a long-ranged attack using blasts of green energy known as Emerald Splash.
-		<div>
+		<div class="kaHide">
         <canvas id="canvas5"></canvas>
     	</div>
 	</p>
@@ -117,13 +117,15 @@
 			<br>
 			<br>
 		Initially under Dio's control, Polnareff attacks Jotaro's group during their stay in Hong Kong before being defeated by Avdol. He then joins them on the hunt for Dio in order to find his sister's murderer, J. Geil. His Stand is Silver Chariot, an armored knight wielding a rapier that can boost its blinding speed further by casting off its armor while producing a series of afterimages.
-		<div>
-        <canvas id="canvas6"></canvas>
-    	</div>
+		
 
 	</p>
+	<div class="polHide">
+        <canvas id="canvas6"></canvas>
+    </div>
 
-
+<br>
+<br>
 
 	<button type="button" id="iggy">
 			Iggy
@@ -131,8 +133,9 @@
 	<p id="text7" class="firstHide">
 			<img src="asserts/images/3.png" >
 			<br>
+			<br>
 		A Boston Terrier ally of Jotaro's who thwarted the New York animal control officers for years until Avdol managed to capture the dog for the Speedwagon Foundation. To keep him calm, the Speedwagon Foundation and anyone handling him must give him coffee-flavored chewing gum as a treat, otherwise he will disobey all orders. His Stand The Fool takes the form of a part-biological part-mechanical being with two forelegs and two wheels instead of hindlegs, and can even form wings to allow Iggy to glide away from danger.
-		<div>
+		<div class="iggyHide">
         <canvas id="canvas7"></canvas>
     	</div>
 	</p>
@@ -162,6 +165,38 @@
   <!--chart-->
   <script>
   	//jotaro
+  	//$(".firstHide").hide();
+  	  //$("#kujo").click(function(){
+    //      	$(".firstHide").show();
+    //  });
+    $(".kujoHide").hide();
+	var kujoSwitch =  false;
+	$("#kujo").click(function(){
+        if(kujoSwitch == false){
+        	var quotes = [
+        	"You truly are the lowest scum in history. You can’t pay back what you owe with money... Here’s your receipt.", 
+        	"Impossible? We did a lot of impossible things on this journey. I’m tired of hearing that things are impossible or useless. Those words mean nothing to us.", 
+        	"I covered you with gasoline so I can track your smell. I feel bad, kicking a guy when he’s down, but… Nah, I don´t feel bad about this at all. My friends and a lot of bystanders are dead because of you.",
+        	 "What? The loser is evil? Well, in that case… you’re the evil one after all!",
+        	 "The one who’ll be the judge is my stand!",
+        	 "Yare yare DAZE...",
+        	 "ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA"];
+        	var randomPick = Math.floor(Math.random() * quotes.length);
+        	alert(quotes[randomPick] ); 
+        	//ramdom words poping
+         	$(".kujoHide").show();
+            kujoSwitch = true;
+        }else{
+           	$(".kujoHide").hide();
+           	kujoSwitch = false;
+        }
+      }
+    );
+
+
+
+
+
         var chartJotaro = document.getElementById('canvas1').getContext('2d');
 
         var canvas2 = document.getElementById("canvas");
@@ -193,8 +228,38 @@
 
             }
         });
+        window.addEventListener('resize', function () {
+           myLineChart.resize()
+        })
+
+
+
+
+
 
 //joseph
+$(".joHide").hide();
+	var joSwitch =  false;
+	$("#joseph").click(function(){
+        if(joSwitch == false){
+        	var quotes = ["Well, my arms are folded and my eyes are closed, this is a victory laugh, Esidisi. You lost today because you snoozed for 2000 years.", 
+        	"Shoot me if you want to! But you better be prepared to face the consequences. The moment you try to pull that trigger, I’ll snap your fingers in half like matchsticks!", 
+        	"You’re god damn right! Everything worked out according to the plan… From the very beginning! (I just got lucky, but thinking I outsmarted him will drive Kars nuts).", 
+        	"OH MY GOD",
+        	"OH NOOOO!!!"];
+        	var randomPick = Math.floor(Math.random() * quotes.length);
+        	alert(quotes[randomPick] );  
+        	//ramdom words poping
+         	$(".joHide").show();
+            joSwitch = true;
+        }else{
+           	$(".joHide").hide();
+           	joSwitch = false;
+        }
+    }
+ );
+
+
 	var chartJoseph = document.getElementById('canvas2').getContext('2d');
 
         var canvas = document.getElementById("canvas");
@@ -224,7 +289,35 @@
 
             }
         });
+
+
+
+
 //mizuno
+$(".mizuHide").hide();
+	var mizuSwitch =  false;
+	$("#mizu").click(function(){
+        if(mizuSwitch == false){
+        	var quotes = ["Bene!",
+        	 "After a joke you'd better laugh, ya know?",
+        	 "The rule breaker... that's my stand, OCEAN BLUE!!!",
+        	 "What have you done to him ?! Now none of you could leave peacefully!"];
+        	var randomPick = Math.floor(Math.random() * quotes.length);
+        	alert(quotes[randomPick] );  
+        	//ramdom words poping
+         	$(".mizuHide").show();
+            mizuSwitch = true;
+        }else{
+           	$(".mizuHide").hide();
+           	mizuSwitch = false;
+        }
+    }
+ );
+
+
+
+
+
 	var chartMizu = document.getElementById('canvas3').getContext('2d');
 
         var canvas = document.getElementById("canvas");
@@ -256,6 +349,28 @@
         });
 
 //avdol
+$(".avoHide").hide();
+	var aSwitch =  false;
+	$("#avdol").click(function(){
+        if(aSwitch == false){
+        	var quotes = ["My fourth wish, that is…to not listen to your wishes.", 
+        	"HELL 2 U", 
+        	"Cross Fire Hurricane SPECIAL !!!", 
+        	"Magician’s Red won’t forgive you. Not happening."];
+        	var randomPick = Math.floor(Math.random() * quotes.length);
+        	alert(quotes[randomPick] );   
+        	//ramdom words poping
+         	$(".avoHide").show();
+            aSwitch = true;
+        }else{
+           	$(".avoHide").hide();
+           	aSwitch = false;
+        }
+    }
+ );
+
+
+
 	var chartAvdol = document.getElementById('canvas4').getContext('2d');
 
         var canvas = document.getElementById("canvas");
@@ -286,6 +401,27 @@
             }
         });
 //kakyoin
+$(".kaHide").hide();
+	var kSwitch =  false;
+	$("#kakyo").click(function(){
+        if(kSwitch == false){
+        	var quotes = ["Rerorerorerorerorerorero.", 
+        	"Now, it's time for your punishment, baby.", 
+        	"My name is Noriaki Kakyoin! For the vengeance of my friend Avdol and so that the sister of my friend, Polnareff, may be at peace, you will pay with your life!", 
+        	"Take this, Dio! Twenty meter radius emerald splash!"];
+        	var randomPick = Math.floor(Math.random() * quotes.length);
+        	alert(quotes[randomPick] );  
+        	//ramdom words poping
+         	$(".kaHide").show();
+            kSwitch = true;
+        }else{
+           	$(".kaHide").hide();
+           	kSwitch = false;
+        }
+    }
+ );
+
+
 	var chartKakyo = document.getElementById('canvas5').getContext('2d');
 
         var canvas = document.getElementById("canvas");
@@ -317,6 +453,27 @@
         });
 
 //polner
+$(".polHide").hide();
+	var pSwitch =  false;
+	$("#pol").click(function(){
+        if(pSwitch == false){
+        	var quotes = ["You’ve got to say something more like this before you get revenge. My name is Jean-Pierre Polnareff. For my sister’s honor, and so that my friend Avdol can rest in peace... Im going to hurl you into the depths of despair!", 
+        	"Bravo oh bravo!!!", 
+        	"Hora Hora Hora!!!", 
+        	"C'mon... I'll make your stand into a hanging ornament!"];
+        	var randomPick = Math.floor(Math.random() * quotes.length);
+        	alert(quotes[randomPick] );  
+        	//ramdom words poping
+         	$(".polHide").show();
+            pSwitch = true;
+        }else{
+           	$(".polHide").hide();
+           	pSwitch = false;
+        }
+    }
+ );
+
+
 	var chartPol = document.getElementById('canvas6').getContext('2d');
 
         var canvas = document.getElementById("canvas");
@@ -347,6 +504,27 @@
             }
         });
 //iggy
+$(".iggyHide").hide();
+	var igSwitch =  false;
+	$("#iggy").click(function(){
+        if(igSwitch == false){
+        	var quotes = ["I-I'll just hide here...", 
+        	"I don't need this crap. Have a nice life.", 
+        	"Grr... I can't let a dog-lover just get killed!", 
+        	"I've gotta get them before they get me!"];
+        	var randomPick = Math.floor(Math.random() * quotes.length);
+        	alert(quotes[randomPick] );  
+        	//ramdom words poping
+         	$(".iggyHide").show();
+            igSwitch = true;
+        }else{
+           	$(".iggyHide").hide();
+           	igSwitch = false;
+        }
+    }
+ );
+
+
 	var chartIggy = document.getElementById('canvas7').getContext('2d');
 
         var canvas = document.getElementById("canvas");
