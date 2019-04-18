@@ -1,0 +1,32 @@
+As part of your final project, Conduct research, choose and implement a jQuery plugin or JS Library not used in class. Create a one page site about a place you would like to visit. You must apply the plugin on a minimum of 5 Elements or areas on your site. (Work in class lab and home to complete the assignment)
+
+Put assignment 6 in a new github repo and share the github repo with me so that I can grade the assignment. (Your final project repo needs to be in a seperate/new repo)
+
+Name your site vacation folder
+
+Points:
+
+20 points – Successfully installing/using jQuery Plugin or JS Library done
+50 points – 10 points per element used
+30 points – HTML/CSS and Creativity done
+Must Haves:
+5 Images of the location (5 points) done
+5 item List of landmarks, sightseeing areas, or restaurants with links to websites about landmark (5 points)
+1 Header and Intro paragraph of location (5 points) done
+Using CSS Creatively - make changes to css based on user interaction (10 Points) done
+Making your site presentable (5 points) done
+Extra credit: 10 points for anyone who includes css grid on their site @media (small, medium and large formats). Does not apply for assignments turned in late.
+
+Assignments turned in after the deadline will have a deduction of a full letter grade.
+
+
+
+JQUERY PLUGIN IDEAS FOR RESEARCHING:
+
+https://www.creativebloq.com/jquery/top-jquery-plugins-6133175
+
+https://speckyboy.com/free-jquery-plugins/
+
+https://tutorialzine.com/2013/04/50-amazing-jquery-plugins
+
+http://www.unheap.com/
